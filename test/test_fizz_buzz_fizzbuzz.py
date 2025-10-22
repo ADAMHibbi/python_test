@@ -11,6 +11,11 @@ def buzz_5():
 
 def buzz_10():
     assert fizzbuzz(10) == "Buzz"
+def fizzbuzz_15():
+    assert fizzbuzz(15) == "FizzBuzz"
+
+def fizzbuzz_30():
+    assert fizzbuzz(30) == "FizzBuzz"
 
 def fizz_1():
     assert fizzbuzz(1) == 1

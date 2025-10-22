@@ -3,5 +3,7 @@ def fizz_buzz_fizzbuzz(n):
         return "Fizz"
     if n % 5 == 0:
         return "Buzz"
+    if num % 3 == 0 and num % 5 == 0:
+        return "FizzBuzz"
     return n
 
